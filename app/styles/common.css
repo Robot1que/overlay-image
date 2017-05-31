@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin: 0px;
+    -webkit-app-region: drag;
+    overflow: hidden;
+}
+
+select {
+    -webkit-app-region: no-drag;
+    height: 45px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}

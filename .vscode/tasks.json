@@ -1,0 +1,16 @@
+{
+    "version": "0.1.0",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "echoCommand": true,
+    "tasks": [
+        {
+            "taskName": "build",
+            "isShellCommand": true,
+            "command": "node_modules\\.bin\\gulp",
+            "args": ["build"],
+            "problemMatcher": "$tsc",
+            "isBuildCommand": true
+        }
+    ]
+}

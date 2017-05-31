@@ -1,0 +1,34 @@
+{
+  "name": "react-vs-ractive",
+  "version": "1.0.0",
+  "main": "Main.js",
+  "author": "Robot1que",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/gulp build"
+  },
+  "dependencies": {
+    "electron": "^1.6.10",
+    "image-size": "^0.5.4",
+    "ractive": "^0.8.14",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "@types/image-size": "^0.0.28",
+    "@types/node": "^7.0.22",
+    "@types/ractive": "^0.7.27",
+    "@types/react": "^15.0.25",
+    "@types/react-dom": "^15.5.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.1.7",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^1.2.2",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
